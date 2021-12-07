@@ -4,7 +4,9 @@ const deleteCourseCtrl = async(ctrlData)=>{
         const course = await findModelItemQ('Courses',{
             where:{
                 uniId: uni.uniId,
-                courseUUID: ctrlData.courseUUID
+                uniId: uni.uniId,
+                courseUUID: ctrlData.courseUUID,
+                courseUUID: ctrlData.courseUUID,
             }
         })
         if(course){
