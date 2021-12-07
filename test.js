@@ -5,7 +5,8 @@ const deleteCourseCtrl = async(ctrlData)=>{
             where:{
                 uniId: uni.uniId,
                 courseUUID: ctrlData.courseUUID,
-                courseUUID: ctrlData.courseUUID,
+                courseUUID1: ctrlData.courseUUID1,
+                courseUUID3: ctrlData.courseUUID3,
             }
         })
         if(course){
