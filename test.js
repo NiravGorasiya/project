@@ -6,7 +6,8 @@ const deleteCourseCtrl = async(ctrlData)=>{
                 uniId: uni.uniId,
                 courseUUID: ctrlData.courseUUID,
                 courseUUID1: ctrlData.courseUUID1,
-                courseUUID3: ctrlData.courseUUID3,
+                courseUUID2: ctrlData.courseUUID2,
+                courseUUID3: ctrlData.courseUUID3
             }
         })
         if(course){
